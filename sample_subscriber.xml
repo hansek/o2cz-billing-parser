@@ -1,0 +1,61 @@
+<subscriber
+        phoneNumber="111222333"
+        ownerRefNum="1234567891"
+        ownerCustCode="8.55555.11.00.1022333"
+        accountType="CUST"
+        summaryPrice="550.0"
+        mainTariff="VARIO profil 4"
+        roamingTariff="Svět Basic"
+>
+    <tariffs>
+        <tariff
+                tariffName="VARIO profil 4"
+                tariffType="C"
+                validFrom="2017-09-01"
+                validTo="2017-09-30"
+        />
+        <tariff tariffName="Svět Basic" tariffType="R" validFrom="2017-09-01" validTo="2017-09-30"/>
+    </tariffs>
+    <summaryData>
+        <regularCharges rcTotalPrice="550.0">
+            <rcItem
+                    count="1"
+                    feeName="VARIO profil 4"
+                    parentRowID="911"
+                    priceWithoutTax="550.0"
+                    rowID="10001"
+                    mainTariff="0"
+                    tariffFee="0"
+                    tax="21.0"
+                    validFrom="2017-09-01"
+                    validTo="2017-09-30"
+            />
+        </regularCharges>
+        <usageCharges ucTotalPrice="0.0">
+            <usageCharge subtotalPrice="0.0" usagePackName="Calls" usageType="V">
+                <ucItem freeCredits="0" freeUnitsAmount="0.0" freeUnitsPrice="0.0" name="Do O2" parentRowID="901" priceWithoutTax="0.0" quantityOfConnect="2" rowID="1" tax="21.0" period="02" periodDescr="špička" uom="Sec" displayedUom="min" quantity="240"/>
+                <ucItem freeCredits="0" freeUnitsAmount="0.0" freeUnitsPrice="0.0" name="Do O2" parentRowID="901" priceWithoutTax="0.0" quantityOfConnect="2" rowID="1" tax="21.0" period="05" periodDescr="vík. a svátek" uom="Sec" displayedUom="min" quantity="420"/>
+                <ucItem freeCredits="0" freeUnitsAmount="0.0" freeUnitsPrice="0.0" name="Mimo O2" parentRowID="901" priceWithoutTax="0.0" quantityOfConnect="1" rowID="2" tax="21.0" period="02" periodDescr="špička" uom="Sec" displayedUom="min" quantity="60"/>
+                <ucItem freeCredits="0" freeUnitsAmount="0.0" freeUnitsPrice="0.0" name="Ve VPN" parentRowID="901" priceWithoutTax="0.0" quantityOfConnect="3" rowID="5" tax="21.0" period="02" periodDescr="špička" uom="Sec" displayedUom="min" quantity="810"/>
+                <ucItem freeCredits="0" freeUnitsAmount="0.0" freeUnitsPrice="0.0" name="Ve VPN" parentRowID="901" priceWithoutTax="0.0" quantityOfConnect="1" rowID="5" tax="21.0" period="05" periodDescr="vík. a svátek" uom="Sec" displayedUom="min" quantity="60"/>
+                <ucItem freeCredits="0" freeUnitsAmount="0.0" freeUnitsPrice="0.0" name="Ostatní: EU odchozí" parentRowID="901" priceWithoutTax="0.0" quantityOfConnect="5" rowID="68" tax="21.0" period="01" periodDescr="vždy" uom="Sec" displayedUom="min" quantity="538"/>
+                <ucItem freeCredits="0" freeUnitsAmount="0.0" freeUnitsPrice="0.0" name="Ostatní: EU příchozí" parentRowID="901" priceWithoutTax="0.0" quantityOfConnect="2" rowID="69" tax="21.0" period="01" periodDescr="vždy" uom="Sec" displayedUom="min" quantity="74"/>
+            </usageCharge>
+            <usageCharge subtotalPrice="0.0" usagePackName="Messages" usageType="M">
+                <ucItem freeCredits="0" freeUnitsAmount="0.0" freeUnitsPrice="0.0" name="SMS do mobilních sítí v ČR" parentRowID="902" priceWithoutTax="0.0" quantityOfConnect="0" rowID="3" tax="21.0" period="01" periodDescr="vždy" uom="Msg" displayedUom="SMS" quantity="5"/>
+                <ucItem freeCredits="0" freeUnitsAmount="0.0" freeUnitsPrice="0.0" name="SMS do mobilních sítí v ČR" parentRowID="902" priceWithoutTax="0.0" quantityOfConnect="0" rowID="3" tax="21.0" period="02" periodDescr="špička" uom="Msg" displayedUom="SMS" quantity="4"/>
+                <ucItem freeCredits="0" freeUnitsAmount="0.0" freeUnitsPrice="0.0" name="SMS do mobilních sítí v ČR" parentRowID="902" priceWithoutTax="0.0" quantityOfConnect="0" rowID="3" tax="21.0" period="05" periodDescr="vík. a svátek" uom="Msg" displayedUom="SMS" quantity="4"/>
+                <ucItem freeCredits="0" freeUnitsAmount="0.0" freeUnitsPrice="0.0" name="SMS ostatní: EU" parentRowID="902" priceWithoutTax="0.0" quantityOfConnect="0" rowID="70" tax="21.0" period="01" periodDescr="vždy" uom="Msg" displayedUom="SMS" quantity="4"/>
+            </usageCharge>
+            <usageCharge subtotalPrice="0.0" usagePackName="Data, Internet" usageType="D">
+                <ucItem freeCredits="0" freeUnitsAmount="0.0" freeUnitsPrice="0.0" name="Připojení k Internetu" parentRowID="903" priceWithoutTax="0.0" quantityOfConnect="0" rowID="55" tax="21.0" period="01" periodDescr="vždy" uom="Sec" displayedUom="hod" quantity="1162800"/>
+                <ucItem freeCredits="0" freeUnitsAmount="0.0" freeUnitsPrice="0.0" name="Ostatní: EU" parentRowID="903" priceWithoutTax="0.0" quantityOfConnect="0" rowID="74" tax="21.0" period="01" periodDescr="vždy" uom="Sec" displayedUom="hod" quantity="291600"/>
+            </usageCharge>
+        </usageCharges>
+        <payments paymentTotalPrice="100.0">
+            <payment paymentSectionName="Platební služby" subtotalPrice="100.0" paymentType="P">
+                <paymentItem amount="5" parentRowID="935" paymentItemName="MHD, parkování, ostatní služby a zboží" paymentItemType="P" price="100.0" rowID="30001" uom="Msg" displayedUom="SMS"/>
+            </payment>
+        </payments>
+    </summaryData>
+</subscriber>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>O2 billing parser</title>
+
+    <script src="{{ url_for('static', filename='dropzone.js') }}"></script>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='dropzone.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<div id="previews" class="dropzone-previews"></div>
+    <form action="/upload" class="dropzone" id="my-awesome-dropzone"></form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Tel.</th>
+                <th>Suma</th>
+            </tr>
+        </thead>
+        <tbody id="result">
+            <tr>
+                <td colspan="2">...</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
